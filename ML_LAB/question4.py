@@ -15,8 +15,8 @@ step = (stop - start) / (num - 1)
 for i in range(num):
     val = start + i * step
     x.append(val)
-    exponent = -((val - mean)**2) / (2*sigma*sigma)
-    y.append((1/(sigma*math.sqrt(2*math.pi))) * math.exp(exponent))
+    power_value = -((val - mean)**2) / (2*sigma*sigma)
+    y.append((1/(sigma*math.sqrt(2*math.pi))) * math.exp(power_value))
 
 plt.plot(x, y)
 plt.xlabel("x")
