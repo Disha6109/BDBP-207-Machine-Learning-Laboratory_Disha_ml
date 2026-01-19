@@ -13,9 +13,9 @@ for x in range(-10, 11):
 plt.plot(x_values, y_values)
 
 
-plt.title("My First Parabola (y = x²)")
+plt.title("First Parabola (y = x²)")
 plt.xlabel("x value")
-plt.ylabel("y value (x squared)")
+plt.ylabel("y value (x_squared)")
 plt.grid(True)
 
 plt.show()
