@@ -19,6 +19,6 @@ for row in X:
     result.append(value)
 
 
-print("Result of Xθ:")
+print("Result_of_Xθ:")
 for value in result:
     print(value)
