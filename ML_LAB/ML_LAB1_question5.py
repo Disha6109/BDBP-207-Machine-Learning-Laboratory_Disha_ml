@@ -21,7 +21,7 @@ plt.grid(True)
 plt.show()
 
 
-print("The slope (derivative) is always 2 times x:")
+print("The slope is:")
 for x in [-5, 0, 5]:
     slope = 2 * x
     print("At x =", x, "the slope is", slope)
